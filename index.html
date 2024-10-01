@@ -4,30 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lipa Capital Journal</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Mein Persönliches Journal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Willkommen zu meinem persönlichen Journal</h1>
+        <h1>Mein Persönliches Journal</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tasks.html">Daily Tasks</a></li>
-                <li><a href="routines.html">Routinen</a></li>
-                <li><a href="about.html">Über mich</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="#journal">Journal</a></li>
+                <li><a href="#tasks">Daily Tasks</a></li>
+                <li><a href="#routines">Routinen</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Letzte Journal-Einträge</h2>
-            <p>Hier kannst du deine letzten Einträge sehen und neue hinzufügen!</p>
-        </section>
-    </main>
+
+    <section id="journal" class="section">
+        <h2>Journal</h2>
+        <p>Willkommen in meinem persönlichen Journal! Hier halte ich meine täglichen Gedanken, Gefühle und Erlebnisse fest.</p>
+        <textarea rows="10" placeholder="Schreibe hier dein Journal-Eintrag..."></textarea>
+    </section>
+
+    <section id="tasks" class="section">
+        <h2>Daily Tasks</h2>
+        <ul class="task-list">
+            <li>✔️ Aufgabe 1</li>
+            <li>✔️ Aufgabe 2</li>
+            <li>✔️ Aufgabe 3</li>
+            <li>✔️ Aufgabe 4</li>
+        </ul>
+        <button>Neue Aufgabe hinzufügen</button>
+    </section>
+
+    <section id="routines" class="section">
+        <h2>Routinen</h2>
+        <ul class="routine-list">
+            <li>Morgenroutine: 6:00 Uhr aufstehen, 15 Minuten Meditation, Frühstück</li>
+            <li>Abendroutine: Reflektieren, Tagebuch schreiben, Lesen</li>
+        </ul>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Lipa Capital. All rights reserved.</p>
+        <p>&copy; 2024 Mein Persönliches Journal. Alle Rechte vorbehalten.</p>
     </footer>
 </body>
 </html>
